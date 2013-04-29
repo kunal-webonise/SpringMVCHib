@@ -69,7 +69,7 @@ public String updateContact(@ModelAttribute Contact contact, HttpServletRequest 
 
 
 @RequestMapping(value= "/", method=RequestMethod.GET)
-public String hello(Map<String, Object> map)
+public String toHome(Map<String, Object> map)
 {  
 	return "redirect:/contacts";
 	
